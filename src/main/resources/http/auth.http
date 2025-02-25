@@ -1,0 +1,76 @@
+### registration
+POST localhost:8080/api/v1/auth/emailReg
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "name": "Sanjar",
+  "username": "runnerpro1990@gmail.com",
+  "password": "123456"
+}
+### registration by phone
+POST localhost:8080/api/v1/auth/emailReg
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "name": "Sanjar",
+  "username": "998909656467",
+  "password": "123456"
+}
+### login
+POST localhost:8080/api/v1/auth/login
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "username": "sanjar902105@gmail.com",
+  "password": "123456"
+}
+
+### sms verification
+POST localhost:8080/api/v1/auth/verification/sms
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "phone": "+998908070176",
+  "code": "30072"
+}
+### sms resend
+POST localhost:8080/api/v1/auth/verification/sms/resend
+Content-Type: application/json
+
+{
+  "phone": "998908070176"
+}
+
+### reset password email
+POST localhost:8080/api/v1/auth/resetPassword
+Content-Type: application/json
+Accept-Language: ru
+
+{
+  "username": "runnerpro1990@gmail.com"
+}
+### reset password sms
+POST localhost:8080/api/v1/auth/resetPassword
+Content-Type: application/json
+Accept-Language: ru
+
+{
+  "username": "998908070176"
+}
+
+### reset password confirm
+POST localhost:8080/api/v1/auth/resetPassword/confirm
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "username": "runnerpro1990@gmail.com",
+  "code": "22219",
+  "password": "1234567"
+}
+### test
+GET localhost:8080/api/v1/auth/test

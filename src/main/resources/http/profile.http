@@ -1,0 +1,38 @@
+### update details
+PUT localhost:8080/api/v1/profile/detail
+Content-Type: application/json
+Accept-Language: ru
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDAzOTkxMDIsImV4cCI6MTc0MDQwNjMwMiwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.KgA50pO8kWizbafyXAPMwD_XBYpukWbmQMqPgv97gz2CPWPARcplSl9t-92asDwV
+
+{
+  "name": "Name updated"
+}
+### update password
+PUT localhost:8080/api/v1/profile/password
+Content-Type: application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDAzOTkxMDIsImV4cCI6MTc0MDQwNjMwMiwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.KgA50pO8kWizbafyXAPMwD_XBYpukWbmQMqPgv97gz2CPWPARcplSl9t-92asDwV
+
+{
+  "currentPassword": "1234567",
+  "newPassword": "123456"
+}
+### update username
+PUT localhost:8080/api/v1/profile/updateUsername
+Content-Type: application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA0NzY5MDEsImV4cCI6MTc0MDQ4NDEwMSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiYzFjMDVmNmMtMGRjNC00ZDVmLTk4NjQtMDJkZjFkODRhYjRlIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX1VTRVIiXX0.R9hInKIf6ezfUqJoLOPG65fpHzFYDKKvuYn-6bYe0riNxFqW4rOiKPQ3AomitXaE
+
+{
+  "username": "998908070176"
+}
+
+### update username confirm
+PUT localhost:8080/api/v1/profile/updateUsername/confirm
+Content-Type: application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA0NzY5MDEsImV4cCI6MTc0MDQ4NDEwMSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiYzFjMDVmNmMtMGRjNC00ZDVmLTk4NjQtMDJkZjFkODRhYjRlIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX1VTRVIiXX0.R9hInKIf6ezfUqJoLOPG65fpHzFYDKKvuYn-6bYe0riNxFqW4rOiKPQ3AomitXaE
+
+{
+  "code": "20435"
+}

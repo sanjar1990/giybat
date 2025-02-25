@@ -1,0 +1,18 @@
+POST https://notify.eskiz.uz/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "sanjar902105@gmail.com",
+  "password": "2HRhAtv8sr7lkpWXYs1fgPJpIqWJrcWQIr305Zrw"
+}
+
+### send sms
+POST https://notify.eskiz.uz/api/message/sms/send
+Content-Type: application/json
+Authorization: Bearer eyJhbGciiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDI4MDk5NzIsImlhdCI6MTc0MDIxNzk3Miwicm9sZSI6InRlc3QiLCJzaWduIjoiMDZhNzE1MzY3MWJjNTkxM2I1MzhhMmRhMmM5YTgzNDg1NmYyOTY4M2I2YTQ5Y2FhYmVkNmI5ZDBmNmE5ZTY3MSIsInN1YiI6Ijk4NzgifQ.jQ_cPEOJyQGo3XwjG8USqougS7BOMQwkCs2AcSA6CYw
+
+{
+"mobile_phone": "998908070176",
+  "message": "Bu Eskiz dan test"
+
+}

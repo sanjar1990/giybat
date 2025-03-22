@@ -36,3 +36,37 @@ Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA0NzY5MDEsImV4cCI6MTc0M
 {
   "code": "20435"
 }
+### update photo
+PUT localhost:8080/api/v1/profile/updatePhoto
+Content-Type: application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA0OTg1NDQsImV4cCI6MTc0MDUwNTc0NCwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.x-xIGN5nmQRZMdMMqRPth82CSkEssJpAyIpOBkbppa6_e7oKz3OF8zN77F8hCfXo
+
+{
+"attachId": "77f7e254-8840-4b7f-8491-c7dd4793aba9.jpg"
+}
+
+### filter profile
+POST localhost:8080/api/v1/profile/filter
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA3NDc5MzksImV4cCI6MTc0MDgzNDMzOSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiZmE4YzY2MTctMzNmYi00NmFkLTg4NDQtNDMyN2EyMjlhYzhmIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX0FETUlOIiwiUk9MRV9VU0VSIl19.TCw7WcHijpyQUPYd_GirC4nI2OjjZ7f8au4Q88e8X0wBUlhRiLBPjGlTmm8AbiHI
+Accept-Language: uz
+
+{
+"status": "ACTIVE",
+  "role": "ROLE_ADMIN"
+}
+
+### update profile status
+PUT localhost:8080/api/v1/profile/changeStatus/73d0148d-a509-4c45-b0f1-16d58761f6e6
+Content-Type:application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA3NDM4NDMsImV4cCI6MTc0MDc1MTA0MywiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiZmE4YzY2MTctMzNmYi00NmFkLTg4NDQtNDMyN2EyMjlhYzhmIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX0FETUlOIiwiUk9MRV9VU0VSIl19.r9LHKb82xFuaiJ-aFTHYpxQoS6z3Z-Z7cjrA7XGX6uFqLbh6qRuxPPSa4BxT2f1R
+
+{
+  "status": "ACTIVE"
+}
+
+### delete profile
+DELETE localhost:8080/api/v1/profile/73d0148d-a509-4c45-b0f1-16d58761f6e6
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA3NDM4NDMsImV4cCI6MTc0MDc1MTA0MywiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiZmE4YzY2MTctMzNmYi00NmFkLTg4NDQtNDMyN2EyMjlhYzhmIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX0FETUlOIiwiUk9MRV9VU0VSIl19.r9LHKb82xFuaiJ-aFTHYpxQoS6z3Z-Z7cjrA7XGX6uFqLbh6qRuxPPSa4BxT2f1R

@@ -1,9 +1,12 @@
 ### upload image
 POST localhost:8080/api/v1/attach/upload
 Content-Type: multipart/form-data; boundary=WebAppBoundary
-Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA0NzY5MDEsImV4cCI6MTc0MDQ4NDEwMSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiYzFjMDVmNmMtMGRjNC00ZDVmLTk4NjQtMDJkZjFkODRhYjRlIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX1VTRVIiXX0.R9hInKIf6ezfUqJoLOPG65fpHzFYDKKvuYn-6bYe0riNxFqW4rOiKPQ3AomitXaE
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA2NDg0ODIsImV4cCI6MTc0MDY1NTY4MiwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.yo7mkacCQOS7Bn705knjw8ESh09govq5G22Pto5XofxjKk0FO2-9FrgZf_vFybMn
 
 --WebAppBoundary
 Content-Disposition: form-data; name="file"; filename=sanjarGr.jpg
 
 < C:\Users\Sanjar\Desktop\sanjarGr.jpg
+
+### open attach
+GET localhost:8080/api/v1/attach/open/1d20d004-291b-4988-accc-d2ffc2919d4b.jpg

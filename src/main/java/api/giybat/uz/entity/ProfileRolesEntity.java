@@ -2,6 +2,7 @@ package api.giybat.uz.entity;
 
 import api.giybat.uz.enums.ProfileRole;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @Setter
 @Entity
 @Table(name ="profile_role")
+@AllArgsConstructor
 public class ProfileRolesEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,4 +28,7 @@ public class ProfileRolesEntity {
     @Column(name = "created_date")
     private LocalDateTime createdDate=LocalDateTime.now();
 
+    public ProfileRolesEntity() {
+
+    }
 }

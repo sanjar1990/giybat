@@ -33,7 +33,7 @@ public class JwtUtil {
     public static String encode(String username,String profileId, List<ProfileRole> role) {
         return Jwts.builder()
                 .issuedAt(new Date())
-                .expiration(new Date(System.currentTimeMillis() + EMAIL_TOKEN_LIFETIME))
+                .expiration(new Date(System.currentTimeMillis() +TOKEN_LIFETIME))
                 .issuer("Giybat test portali")
                 .claim("id", profileId)
                 .claim("username", username)

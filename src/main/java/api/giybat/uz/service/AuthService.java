@@ -1,6 +1,7 @@
 package api.giybat.uz.service;
 
 import api.giybat.uz.dto.ApiResponseDTO;
+import api.giybat.uz.dto.AttachDTO;
 import api.giybat.uz.dto.auth.ResetPasswordConfirmDTO;
 import api.giybat.uz.dto.auth.ResetPasswordDTO;
 import api.giybat.uz.dto.profile.ProfileDTO;
@@ -48,6 +49,8 @@ public class AuthService {
     private SmsHistoryService smsHistoryService;
     @Autowired
     private EmailHistoryService emailHistoryService;
+    @Autowired
+    private AttachService attachService;
 
     public ApiResponseDTO registration(RegistrationDTO dto, Language language) {
         Optional<ProfileEntity> optional = profileRepository.findByUsernameAndVisibleTrue(dto.getUsername());
@@ -129,6 +132,7 @@ public class AuthService {
         profile.setUsername(entity.getUsername());
         profile.setRoleList(roleList);
         profile.setJwt(JwtUtil.encode(entity.getUsername(), entity.getId(), roleList));
+        profile.setAttach(attachService.getAttachDTO(entity.getAttachId()));
         return profile;
     }
 

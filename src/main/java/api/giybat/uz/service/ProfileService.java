@@ -2,21 +2,27 @@ package api.giybat.uz.service;
 
 import api.giybat.uz.config.SpringSecurityUtil;
 import api.giybat.uz.dto.ApiResponseDTO;
-import api.giybat.uz.dto.profile.CodeConfirmDTO;
-import api.giybat.uz.dto.profile.ProfileDetailUpdateDTO;
-import api.giybat.uz.dto.profile.ProfilePasswordUpdateDTO;
-import api.giybat.uz.dto.profile.ProfileUsernameUpdateDTO;
+import api.giybat.uz.dto.FilterResultDTO;
+import api.giybat.uz.dto.profile.*;
 import api.giybat.uz.entity.ProfileEntity;
+import api.giybat.uz.entity.ProfileRolesEntity;
+import api.giybat.uz.enums.GeneralStatus;
 import api.giybat.uz.enums.Language;
 import api.giybat.uz.enums.ProfileRole;
 import api.giybat.uz.exceptions.AppBadException;
 import api.giybat.uz.exceptions.ItemNotFoundException;
+import api.giybat.uz.mapper.ProfileMapperDTO;
+import api.giybat.uz.repository.CustomProfileRepository;
 import api.giybat.uz.repository.ProfileRepository;
 import api.giybat.uz.util.EmailUtil;
 import api.giybat.uz.util.JwtUtil;
 import api.giybat.uz.util.PhoneUtil;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +46,10 @@ public class ProfileService {
     private EmailHistoryService emailHistoryService;
     @Autowired
     private ProfileRoleService profileRoleService;
+    @Autowired
+    private AttachService attachService;
+    @Autowired
+    private CustomProfileRepository customProfileRepository;
 
     public ApiResponseDTO updateDetails(@Valid ProfileDetailUpdateDTO dto, Language language) {
         String  profileId= SpringSecurityUtil.getCurrentUserId();
@@ -91,4 +101,46 @@ public class ProfileService {
         Object jwt= JwtUtil.encode(tempUserName,entity.getId(),roleList);
         return new ApiResponseDTO(false,jwt);
     }
+
+    public ApiResponseDTO updatePhoto( ProfileAttachUpdateDTO dto, Language language) {
+    String profileId= SpringSecurityUtil.getCurrentUserId();
+    ProfileEntity entity=getProfile(profileId,language);
+    if(entity.getAttachId()!=null && !entity.getAttachId().equals(dto.getAttachId())) {
+    attachService.delete(entity.getAttachId());
+    }
+    profileRepository.updatePhoto(profileId,dto.getAttachId());
+    return new ApiResponseDTO(false,"Profile updated successfully");
+    }
+
+    public PageImpl<ProfileDTO> filterProfile(int page, int size, ProfileFilterDTO dto, Language language) {
+        Pageable pageable= PageRequest.of(page,size, Sort.by("createdDate").descending());
+        FilterResultDTO<ProfileMapperDTO> result=customProfileRepository.filterProfile(dto, page, size);
+        System.out.println("TEST");
+        List<ProfileDTO> dtoList=result.getContent().stream().map(s->{//new
+            ProfileDTO profile=new ProfileDTO();
+            profile.setId(s.getId());
+            profile.setStatus(GeneralStatus.valueOf(s.getStatus()));
+            profile.setPostCount(s.getPostCount());
+            profile.setAttach(attachService.getAttachDTO(s.getAttachId()));
+            profile.setName(s.getName());
+            profile.setUsername(s.getUsername());
+            profile.setCreatedDate(s.getCreatedDate().toLocalDateTime());
+            List<ProfileRole> roleList= Arrays.stream(s.getRoles().split(",")).map(ProfileRole::valueOf).toList();
+            profile.setRoleList(roleList);
+            return profile;
+        }).toList();
+        return new PageImpl<>(dtoList,pageable,result.getTotalCount());
+    }
+
+    public Boolean updateStatus(String id, GeneralStatus status, Language language) {
+        return profileRepository.updateStatus(id,status)>0;
+    }
+
+    public Boolean delete(String id, Language language) {
+        return profileRepository.deleteProfile(id)>0;
+    }
+//    public void test(){
+//        List<ProfileMapperI> list= profileRepository.findFull();
+//        System.out.println(list.getFirst().getId());
+//    }
 }

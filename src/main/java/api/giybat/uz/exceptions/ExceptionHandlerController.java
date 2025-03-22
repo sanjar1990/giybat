@@ -2,6 +2,7 @@ package api.giybat.uz.exceptions;
 
 import org.aspectj.lang.annotation.AdviceName;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -54,5 +55,10 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
     public ResponseEntity<String> handler(RuntimeException e) {
         e.printStackTrace();
         return ResponseEntity.internalServerError().body(e.getMessage());
+    }
+    @ExceptionHandler(Forbidden.class)
+    public ResponseEntity<String> handler(Forbidden e) {
+        e.printStackTrace();
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
     }
 }

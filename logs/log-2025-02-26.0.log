@@ -1,0 +1,1407 @@
+26 Feb 2025 - 15:10:42.788 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 10040 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:10:42.802 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:10:43.622 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:10:43.679 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:10:44.186 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:10:44.197 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:10:44.197 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:10:44.247 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:10:44.248 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1407 ms
+26 Feb 2025 - 15:10:44.385 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 15:10:44.466 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 15:10:44.496 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 15:10:44.737 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 15:10:44.762 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:10:44.917 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51508029
+26 Feb 2025 - 15:10:44.919 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:10:45.013 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 15:10:45.951 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 15:10:46.167 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 15:10:46.385 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 15:10:47.424 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 15:10:47.453 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 15:10:47.454 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 15:10:48.174 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 15:10:48.181 - api.giybat.uz.Application -  INFO  - Started Application in 5.889 seconds (process running for 6.668)
+26 Feb 2025 - 15:11:01.104 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 15:11:01.108 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 15:11:01.115 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 15:11:01.118 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 15:11:01.122 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 15:11:04.247 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 19512 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:11:04.257 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:11:05.034 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:11:05.089 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:11:05.578 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:11:05.588 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:11:05.588 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:11:05.635 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:11:05.635 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1343 ms
+26 Feb 2025 - 15:11:05.724 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:11:05.967 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4466cf5d
+26 Feb 2025 - 15:11:05.969 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:11:06.056 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 15:11:06.056 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 15:11:06.056 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 15:11:06.068 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 15:11:06.073 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 15:11:06.095 - o.f.c.i.s.JdbcTableSchemaHistory -  INFO  - Schema history table "public"."flyway_schema_history" does not exist yet
+26 Feb 2025 - 15:11:06.098 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 2 migrations (execution time 00:00.015s)
+26 Feb 2025 - 15:11:06.109 - o.f.c.i.s.JdbcTableSchemaHistory -  INFO  - Creating Schema History table "public"."flyway_schema_history" with baseline ...
+26 Feb 2025 - 15:11:06.131 - o.f.core.internal.command.DbBaseline -  INFO  - Successfully baselined schema with version: 1
+26 Feb 2025 - 15:11:06.141 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1
+26 Feb 2025 - 15:11:06.146 - o.f.core.internal.command.DbMigrate -  INFO  - Migrating schema "public" to version "1.1 - init admin"
+26 Feb 2025 - 15:11:06.158 - o.f.core.internal.command.DbMigrate -  ERROR - Migration of schema "public" to version "1.1 - init admin" failed! Changes successfully rolled back.
+26 Feb 2025 - 15:11:06.161 - o.s.b.w.e.tomcat.TomcatStarter -  ERROR - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+26 Feb 2025 - 15:11:06.184 - o.a.catalina.core.StandardService -  INFO  - Stopping service [Tomcat]
+26 Feb 2025 - 15:11:06.187 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:11:06.188 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.security.provider.SHA2.implCompress0(SHA2.java:160)
+ java.base/sun.security.provider.SHA2.implCompress(SHA2.java:135)
+ java.base/sun.security.provider.DigestBase.implCompressMultiBlock0(DigestBase.java:149)
+ java.base/sun.security.provider.DigestBase.implCompressMultiBlock(DigestBase.java:143)
+ java.base/sun.security.provider.DigestBase.engineUpdate(DigestBase.java:130)
+ java.base/java.security.MessageDigest$Delegate.engineUpdate(MessageDigest.java:653)
+ java.base/java.security.MessageDigest.update(MessageDigest.java:357)
+ java.base/com.sun.crypto.provider.HmacCore.engineDoFinal(HmacCore.java:236)
+ java.base/javax.crypto.Mac.doFinal(Mac.java:581)
+ java.base/javax.crypto.Mac.doFinal(Mac.java:624)
+ java.base/com.sun.crypto.provider.PBKDF2KeyImpl.deriveKey(PBKDF2KeyImpl.java:200)
+ java.base/com.sun.crypto.provider.PBKDF2KeyImpl.<init>(PBKDF2KeyImpl.java:114)
+ java.base/com.sun.crypto.provider.PBKDF2Core.engineGenerateSecret(PBKDF2Core.java:68)
+ java.base/javax.crypto.SecretKeyFactory.generateSecret(SecretKeyFactory.java:339)
+ org.postgresql.shaded.com.ongres.scram.common.CryptoUtil.hi(CryptoUtil.java:70)
+ org.postgresql.shaded.com.ongres.scram.common.ScramMechanism.saltedPassword(ScramMechanism.java:226)
+ org.postgresql.shaded.com.ongres.scram.common.ScramFunctions.saltedPassword(ScramFunctions.java:46)
+ org.postgresql.shaded.com.ongres.scram.client.ClientFinalProcessor.<init>(ClientFinalProcessor.java:72)
+ org.postgresql.shaded.com.ongres.scram.client.ServerFirstProcessor.clientFinalProcessor(ServerFirstProcessor.java:59)
+ org.postgresql.shaded.com.ongres.scram.client.ScramClient.clientFinalMessage(ScramClient.java:185)
+ org.postgresql.core.v3.ScramAuthenticator.handleAuthenticationSASLContinue(ScramAuthenticator.java:159)
+ org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:864)
+ org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213)
+ org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+ org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ org.postgresql.Driver.makeConnection(Driver.java:446)
+ org.postgresql.Driver.connect(Driver.java:298)
+ com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:11:06.190 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+26 Feb 2025 - 15:11:06.191 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 15:11:06.230 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 15:11:06.240 - o.s.b.a.l.ConditionEvaluationReportLogger -  INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26 Feb 2025 - 15:11:06.262 - o.s.boot.SpringApplication -  ERROR - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at api.giybat.uz.Application.main(Application.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4426)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 55 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:11:06.145377, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 92 common frames omitted
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:11:06.145377, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 101 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:11:06.145377, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 120 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:11:06.145377, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 126 common frames omitted
+26 Feb 2025 - 15:12:37.462 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 12560 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:12:37.473 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:12:38.211 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:12:38.265 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 47 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:12:38.745 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:12:38.756 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:12:38.757 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:12:38.802 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:12:38.803 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1289 ms
+26 Feb 2025 - 15:12:38.880 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:12:39.020 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c74d19
+26 Feb 2025 - 15:12:39.022 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:12:39.081 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 15:12:39.081 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 15:12:39.081 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 15:12:39.093 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 15:12:39.098 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 15:12:39.123 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.017s)
+26 Feb 2025 - 15:12:39.170 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1
+26 Feb 2025 - 15:12:39.181 - o.f.core.internal.command.DbMigrate -  INFO  - Migrating schema "public" to version "1.1 - init admin"
+26 Feb 2025 - 15:12:39.192 - o.f.core.internal.command.DbMigrate -  ERROR - Migration of schema "public" to version "1.1 - init admin" failed! Changes successfully rolled back.
+26 Feb 2025 - 15:12:39.196 - o.s.b.w.e.tomcat.TomcatStarter -  ERROR - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+26 Feb 2025 - 15:12:39.217 - o.a.catalina.core.StandardService -  INFO  - Stopping service [Tomcat]
+26 Feb 2025 - 15:12:39.219 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:12:39.220 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:191)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+ org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:192)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:159)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:144)
+ org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:76)
+ org.postgresql.core.PGStream.receiveChar(PGStream.java:476)
+ org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:600)
+ org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:201)
+ org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+ org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ org.postgresql.Driver.makeConnection(Driver.java:446)
+ org.postgresql.Driver.connect(Driver.java:298)
+ com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:12:39.222 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+26 Feb 2025 - 15:12:39.223 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 15:12:39.283 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 15:12:39.294 - o.s.b.a.l.ConditionEvaluationReportLogger -  INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26 Feb 2025 - 15:12:39.316 - o.s.boot.SpringApplication -  ERROR - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at api.giybat.uz.Application.main(Application.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4426)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 55 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:12:39.180876, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 92 common frames omitted
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:12:39.180876, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 101 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 23502
+Error Code : 0
+Message    : ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:12:39.180876, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 1
+Statement  : insert into profile(name,username,password,status,visible,created_date)
+values ('Sanjar','sanjar902105@gmail.com',
+        '$2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2','ACTIVE',true,now())
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 120 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "id" of relation "profile" violates not-null constraint
+  Detail: Failing row contains (t, 2025-02-26 15:12:39.180876, null, Sanjar, $2a$12$rx4JuQVjdLXJ8jgeTySkvezWKuQ8jNZJBijNgo9IFQj3TPOoxtcB2, ACTIVE, sanjar902105@gmail.com, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 126 common frames omitted
+26 Feb 2025 - 15:14:17.824 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 20452 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:14:17.834 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:14:18.670 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:14:18.735 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 57 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:14:19.269 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:14:19.281 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:14:19.281 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:14:19.326 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:14:19.327 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1455 ms
+26 Feb 2025 - 15:14:19.415 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:14:19.583 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b7facc7
+26 Feb 2025 - 15:14:19.584 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:14:19.653 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 15:14:19.653 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 15:14:19.653 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 15:14:19.668 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 15:14:19.673 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 15:14:19.701 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.019s)
+26 Feb 2025 - 15:14:19.741 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1
+26 Feb 2025 - 15:14:19.753 - o.f.core.internal.command.DbMigrate -  INFO  - Migrating schema "public" to version "1.1 - init admin"
+26 Feb 2025 - 15:14:19.771 - o.f.core.internal.command.DbMigrate -  ERROR - Migration of schema "public" to version "1.1 - init admin" failed! Changes successfully rolled back.
+26 Feb 2025 - 15:14:19.774 - o.s.b.w.e.tomcat.TomcatStarter -  ERROR - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+26 Feb 2025 - 15:14:19.801 - o.a.catalina.core.StandardService -  INFO  - Stopping service [Tomcat]
+26 Feb 2025 - 15:14:19.804 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:14:19.804 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:191)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+ org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:192)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:159)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:144)
+ org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:76)
+ org.postgresql.core.PGStream.receiveChar(PGStream.java:476)
+ org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:600)
+ org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:201)
+ org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+ org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ org.postgresql.Driver.makeConnection(Driver.java:446)
+ org.postgresql.Driver.connect(Driver.java:298)
+ com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:14:19.807 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+26 Feb 2025 - 15:14:19.808 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 15:14:19.965 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 15:14:19.973 - o.s.b.a.l.ConditionEvaluationReportLogger -  INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26 Feb 2025 - 15:14:19.987 - o.s.boot.SpringApplication -  ERROR - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at api.giybat.uz.Application.main(Application.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4426)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 55 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "select"
+  Position: 66
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 4
+Statement  : insert into profile_role(profile_id,roles,created_date)
+values (select id from profile where username='sanjar902105@gmail.com','ROLE_ADMIN',now()),
+(select id from profile where username='sanjar902105@gmail.com','ROLE_USER',now())
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 92 common frames omitted
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "select"
+  Position: 66
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 4
+Statement  : insert into profile_role(profile_id,roles,created_date)
+values (select id from profile where username='sanjar902105@gmail.com','ROLE_ADMIN',now()),
+(select id from profile where username='sanjar902105@gmail.com','ROLE_USER',now())
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 101 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42601
+Error Code : 0
+Message    : ERROR: syntax error at or near "select"
+  Position: 66
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 4
+Statement  : insert into profile_role(profile_id,roles,created_date)
+values (select id from profile where username='sanjar902105@gmail.com','ROLE_ADMIN',now()),
+(select id from profile where username='sanjar902105@gmail.com','ROLE_USER',now())
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 120 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "select"
+  Position: 66
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 126 common frames omitted
+26 Feb 2025 - 15:17:00.167 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 4504 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:17:00.178 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:17:00.983 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:17:01.043 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:17:01.605 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:17:01.616 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:17:01.617 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:17:01.662 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:17:01.664 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1447 ms
+26 Feb 2025 - 15:17:01.746 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:17:01.897 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@164d01ba
+26 Feb 2025 - 15:17:01.899 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:17:01.965 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 15:17:01.965 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 15:17:01.965 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 15:17:01.976 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 15:17:01.981 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 15:17:02.007 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.018s)
+26 Feb 2025 - 15:17:02.158 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1
+26 Feb 2025 - 15:17:02.174 - o.f.core.internal.command.DbMigrate -  INFO  - Migrating schema "public" to version "1.1 - init admin"
+26 Feb 2025 - 15:17:02.195 - o.f.core.internal.command.DbMigrate -  ERROR - Migration of schema "public" to version "1.1 - init admin" failed! Changes successfully rolled back.
+26 Feb 2025 - 15:17:02.199 - o.s.b.w.e.tomcat.TomcatStarter -  ERROR - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+26 Feb 2025 - 15:17:02.221 - o.a.catalina.core.StandardService -  INFO  - Stopping service [Tomcat]
+26 Feb 2025 - 15:17:02.223 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:17:02.224 - o.a.c.loader.WebappClassLoaderBase -  WARN  - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.Net.poll(Native Method)
+ java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:191)
+ java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280)
+ java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+ java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+ java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+ java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+ org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:192)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:159)
+ org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:144)
+ org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:76)
+ org.postgresql.core.PGStream.receiveChar(PGStream.java:476)
+ org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:600)
+ org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:201)
+ org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+ org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+ org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+ org.postgresql.Driver.makeConnection(Driver.java:446)
+ org.postgresql.Driver.connect(Driver.java:298)
+ com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+ com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+ com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+ com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+26 Feb 2025 - 15:17:02.227 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+26 Feb 2025 - 15:17:02.227 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 15:17:02.366 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 15:17:02.378 - o.s.b.a.l.ConditionEvaluationReportLogger -  INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26 Feb 2025 - 15:17:02.397 - o.s.boot.SpringApplication -  ERROR - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at api.giybat.uz.Application.main(Application.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailsService': Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4426)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'profileRepository': Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 55 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'profileRepository' defined in api.giybat.uz.repository.ProfileRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42703
+Error Code : 0
+Message    : ERROR: column "roles" of relation "profile_role" does not exist
+  Position: 39
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 5
+Statement  : INSERT INTO profile_role (profile_id, roles, created_date)
+SELECT id, 'ROLE_ADMIN', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+UNION ALL
+SELECT id, 'ROLE_USER', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 92 common frames omitted
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42703
+Error Code : 0
+Message    : ERROR: column "roles" of relation "profile_role" does not exist
+  Position: 39
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 5
+Statement  : INSERT INTO profile_role (profile_id, roles, created_date)
+SELECT id, 'ROLE_ADMIN', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+UNION ALL
+SELECT id, 'ROLE_USER', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 101 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V1.1__init_admin.sql failed
+-------------------------------------
+SQL State  : 42703
+Error Code : 0
+Message    : ERROR: column "roles" of relation "profile_role" does not exist
+  Position: 39
+Location   : db/migration/V1.1__init_admin.sql (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes\db\migration\V1.1__init_admin.sql)
+Line       : 5
+Statement  : INSERT INTO profile_role (profile_id, roles, created_date)
+SELECT id, 'ROLE_ADMIN', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+UNION ALL
+SELECT id, 'ROLE_USER', now() FROM profile WHERE username = 'sanjar902105@gmail.com'
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 120 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "roles" of relation "profile_role" does not exist
+  Position: 39
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 126 common frames omitted
+26 Feb 2025 - 15:17:52.129 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 20908 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 15:17:52.139 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 15:17:52.910 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 15:17:52.966 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 15:17:53.452 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 15:17:53.462 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 15:17:53.462 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 15:17:53.508 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 15:17:53.508 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1333 ms
+26 Feb 2025 - 15:17:53.588 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 15:17:53.839 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@706f6d26
+26 Feb 2025 - 15:17:53.840 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 15:17:53.896 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 15:17:53.896 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 15:17:53.896 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 15:17:53.908 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 15:17:53.912 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 15:17:53.937 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.016s)
+26 Feb 2025 - 15:17:53.982 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1
+26 Feb 2025 - 15:17:53.992 - o.f.core.internal.command.DbMigrate -  INFO  - Migrating schema "public" to version "1.1 - init admin"
+26 Feb 2025 - 15:17:54.018 - o.f.core.internal.command.DbMigrate -  INFO  - Successfully applied 1 migration to schema "public", now at version v1.1 (execution time 00:00.015s)
+26 Feb 2025 - 15:17:54.099 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 15:17:54.157 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 15:17:54.186 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 15:17:54.413 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 15:17:54.493 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 15:17:55.354 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 15:17:55.552 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 15:17:55.747 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 15:17:56.630 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 15:17:56.659 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 15:17:56.659 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 15:17:57.318 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 15:17:57.325 - api.giybat.uz.Application -  INFO  - Started Application in 5.608 seconds (process running for 6.34)
+26 Feb 2025 - 15:53:02.993 - com.zaxxer.hikari.pool.HikariPool -  WARN  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s774ms388µs900ns).
+26 Feb 2025 - 17:11:16.497 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 17:11:16.503 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 17:11:16.510 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:11:16.514 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 17:11:16.517 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 17:11:21.577 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 8548 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 17:11:21.589 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 17:11:22.433 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 17:11:22.503 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 17:11:23.138 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 17:11:23.158 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 17:11:23.158 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 17:11:23.209 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 17:11:23.209 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1579 ms
+26 Feb 2025 - 17:11:23.286 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 17:11:23.455 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23ad2d17
+26 Feb 2025 - 17:11:23.456 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 17:11:23.522 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 17:11:23.522 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 17:11:23.522 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 17:11:23.537 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:11:23.542 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:11:23.571 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.020s)
+26 Feb 2025 - 17:11:23.611 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:11:23.613 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:11:23.717 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 17:11:23.787 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 17:11:23.824 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 17:11:24.090 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 17:11:24.183 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 17:11:25.439 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 17:11:25.700 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:11:26.024 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 17:11:27.194 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 17:11:27.231 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 17:11:27.233 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 17:11:28.211 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 17:11:28.225 - api.giybat.uz.Application -  INFO  - Started Application in 7.082 seconds (process running for 7.87)
+26 Feb 2025 - 17:11:28.234 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:11:28.238 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:11:28.243 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.003s)
+26 Feb 2025 - 17:11:28.248 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:11:28.248 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:11:42.038 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26 Feb 2025 - 17:11:42.038 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+26 Feb 2025 - 17:11:42.039 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 1 ms
+26 Feb 2025 - 17:11:43.277 - o.s.api.AbstractOpenApiResource -  INFO  - Init duration for springdoc-openapi is: 369 ms
+26 Feb 2025 - 17:23:25.417 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 17:23:25.423 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 17:23:25.428 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:23:25.431 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 17:23:25.434 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 17:23:29.754 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 13240 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 17:23:29.768 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 17:23:30.703 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 17:23:30.773 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 17:23:31.348 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 17:23:31.362 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 17:23:31.363 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 17:23:31.424 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 17:23:31.424 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1611 ms
+26 Feb 2025 - 17:23:31.499 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 17:23:31.748 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@426c0486
+26 Feb 2025 - 17:23:31.750 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 17:23:31.820 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 17:23:31.820 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 17:23:31.820 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 17:23:31.832 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:23:31.839 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:23:31.869 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.021s)
+26 Feb 2025 - 17:23:32.014 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:23:32.017 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:23:32.095 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 17:23:32.147 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 17:23:32.180 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 17:23:32.449 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 17:23:32.531 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 17:23:33.517 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 17:23:33.753 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:23:33.978 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 17:23:34.963 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 17:23:34.993 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 17:23:34.993 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 17:23:35.774 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 17:23:35.781 - api.giybat.uz.Application -  INFO  - Started Application in 6.521 seconds (process running for 7.222)
+26 Feb 2025 - 17:23:35.790 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:23:35.792 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:23:35.796 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.003s)
+26 Feb 2025 - 17:23:35.800 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:23:35.801 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:24:20.090 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26 Feb 2025 - 17:24:20.091 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+26 Feb 2025 - 17:24:20.092 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 1 ms
+26 Feb 2025 - 17:24:21.180 - o.s.api.AbstractOpenApiResource -  INFO  - Init duration for springdoc-openapi is: 359 ms
+26 Feb 2025 - 17:26:52.745 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 17:26:52.749 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 17:26:52.755 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:26:52.758 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 17:26:52.760 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 17:26:56.587 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 4288 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 17:26:56.597 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 17:26:57.404 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 17:26:57.464 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+26 Feb 2025 - 17:26:58.043 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 17:26:58.055 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 17:26:58.056 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 17:26:58.105 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 17:26:58.105 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1470 ms
+26 Feb 2025 - 17:26:58.179 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 17:26:58.439 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e2a6991
+26 Feb 2025 - 17:26:58.441 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 17:26:58.506 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 17:26:58.507 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 17:26:58.507 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 17:26:58.520 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:26:58.526 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:26:58.554 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.019s)
+26 Feb 2025 - 17:26:58.600 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:26:58.602 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:26:58.684 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 17:26:58.736 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 17:26:58.767 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 17:26:59.024 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 17:26:59.099 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 17:27:00.075 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 17:27:00.300 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 17:27:00.507 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 17:27:01.489 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 17:27:01.520 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 17:27:01.521 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 17:27:02.265 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 17:27:02.273 - api.giybat.uz.Application -  INFO  - Started Application in 6.111 seconds (process running for 6.706)
+26 Feb 2025 - 17:27:02.279 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 17:27:02.281 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 17:27:02.286 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.003s)
+26 Feb 2025 - 17:27:02.290 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 17:27:02.291 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 17:27:37.372 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26 Feb 2025 - 17:27:37.373 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+26 Feb 2025 - 17:27:37.374 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 1 ms
+26 Feb 2025 - 17:27:38.234 - o.s.api.AbstractOpenApiResource -  INFO  - Init duration for springdoc-openapi is: 400 ms
+26 Feb 2025 - 18:04:14.060 - com.zaxxer.hikari.pool.HikariPool -  WARN  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s982ms733µs900ns).
+26 Feb 2025 - 21:13:06.453 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 21:13:06.460 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 21:13:06.467 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 21:13:06.470 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 21:13:06.472 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+26 Feb 2025 - 21:13:10.721 - api.giybat.uz.Application -  INFO  - Starting Application using Java 21.0.6 with PID 8236 (G:\PROGRAMMING\Java Projects\api.giybat.uz\target\classes started by Sanjar in G:\PROGRAMMING\Java Projects\api.giybat.uz)
+26 Feb 2025 - 21:13:10.731 - api.giybat.uz.Application -  INFO  - The following 1 profile is active: "local"
+26 Feb 2025 - 21:13:11.479 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26 Feb 2025 - 21:13:11.540 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 54 ms. Found 7 JPA repository interfaces.
+26 Feb 2025 - 21:13:12.053 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+26 Feb 2025 - 21:13:12.064 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+26 Feb 2025 - 21:13:12.065 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+26 Feb 2025 - 21:13:12.118 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+26 Feb 2025 - 21:13:12.119 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1347 ms
+26 Feb 2025 - 21:13:12.195 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+26 Feb 2025 - 21:13:12.352 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e99e2cb
+26 Feb 2025 - 21:13:12.354 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+26 Feb 2025 - 21:13:12.417 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+26 Feb 2025 - 21:13:12.418 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+26 Feb 2025 - 21:13:12.418 - o.f.c.i.license.VersionPrinter -  INFO  - 
+26 Feb 2025 - 21:13:12.431 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 21:13:12.439 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 21:13:12.467 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.018s)
+26 Feb 2025 - 21:13:12.619 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 21:13:12.623 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 21:13:12.699 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+26 Feb 2025 - 21:13:12.745 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+26 Feb 2025 - 21:13:12.772 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+26 Feb 2025 - 21:13:13.007 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+26 Feb 2025 - 21:13:13.091 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+26 Feb 2025 - 21:13:14.024 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26 Feb 2025 - 21:13:14.285 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 21:13:14.477 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+26 Feb 2025 - 21:13:15.406 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26 Feb 2025 - 21:13:15.434 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+26 Feb 2025 - 21:13:15.435 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+26 Feb 2025 - 21:13:16.129 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+26 Feb 2025 - 21:13:16.137 - api.giybat.uz.Application -  INFO  - Started Application in 5.823 seconds (process running for 6.547)
+26 Feb 2025 - 21:13:16.142 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 17.2)
+26 Feb 2025 - 21:13:16.144 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+26 Feb 2025 - 21:13:16.148 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 3 migrations (execution time 00:00.002s)
+26 Feb 2025 - 21:13:16.153 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.1
+26 Feb 2025 - 21:13:16.153 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+26 Feb 2025 - 21:13:55.039 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26 Feb 2025 - 21:13:55.040 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+26 Feb 2025 - 21:13:55.041 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 1 ms
+26 Feb 2025 - 21:29:45.225 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+26 Feb 2025 - 21:29:45.229 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+26 Feb 2025 - 21:29:45.235 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+26 Feb 2025 - 21:29:45.237 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+26 Feb 2025 - 21:29:45.239 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.

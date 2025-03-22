@@ -88,6 +88,13 @@ public class AttachService {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
     }
+    public Boolean delete(String id){
+        AttachEntity entity=getEntity(id);
+        attachRepository.updateVisible(id);
+        File file=new File(getPath(entity));
+        if (file.exists()) return file.delete();
+        return false;
+    }
     private String getPath(AttachEntity entity){
         return folderName + "/" + entity.getPath()+"/"+entity.getId();
     }
@@ -95,7 +102,7 @@ public class AttachService {
         return attachRepository.findById(id).orElseThrow(() -> new AppBadException("File not found"));
     }
 
-    private String openUrl(String id) {
+    public String openUrl(String id) {
         return attachUrl +"/"+ id;
     }
 
@@ -109,5 +116,13 @@ public class AttachService {
     private String getExtension(String filename) {
         int lastIndex = filename.lastIndexOf(".");
         return filename.substring(lastIndex + 1);
+    }
+
+    public AttachDTO getAttachDTO(String attachId) {
+        if (attachId==null) return null;
+        AttachDTO attach = new AttachDTO();
+        attach.setId(attachId);
+        attach.setUrl(openUrl(attachId));
+        return attach;
     }
 }

@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.*;
 public class AuthController {
     @Autowired
     private AuthService authService;
-    @PostMapping("/emailReg")
+    @PostMapping("/registration")
     @Operation(summary = "Registration",description = "this api used for registration")
     public ResponseEntity<ApiResponseDTO> registration(@Valid @RequestBody RegistrationDTO dto,
                                                        @RequestHeader(value = "Accept-Language",defaultValue = "uz")Language lang) {

@@ -1,4 +1,56 @@
-### post test
+### post create
 POST localhost:8080/api/v1/post
 Content-Type:application/json
-Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDAxNDQ2NDgsImV4cCI6MTc0MDE1MTg0OCwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiYmRiOWIzNDMtYTJjMi00NjVmLTk3YjctNmYyNjU2OTNkY2YxIiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIiwiUk9MRV9BRE1JTiJdfQ.MRppgvcB4cW4MOjNlx9VCeFG6DbfVL8JHbUhwMGrMqDLdCtP7T4gPl-F1Pey3kl_
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA2Njg0NjgsImV4cCI6MTc0MDY3NTY2OCwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.BReK8VrunVURrjMpKiyoNTuNaLu05xhqDpPZcSL2lVzxDhSG1Zd3Hd_5K8jWBvKp
+Accept-Language: ru
+
+{
+  "title": "New post three",
+  "content": "Contented sdsdsadsadsaj three",
+  "attachId": "d9d29b60-8f07-4bab-85e4-668e03e86f0d.jpg"
+}
+### get profile post
+GET localhost:8080/api/v1/post/myPosts
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA2NDg0ODIsImV4cCI6MTc0MDY1NTY4MiwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.yo7mkacCQOS7Bn705knjw8ESh09govq5G22Pto5XofxjKk0FO2-9FrgZf_vFybMn
+
+### get post by id
+GET localhost:8080/api/v1/post/public/72eac640-d0ca-473b-8d9c-3714ccc2ef93
+Accept-Language: uz
+
+### update profile post
+PUT localhost:8080/api/v1/post/72eac640-d0ca-473b-8d9c-3714ccc2ef93
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA2NTQ2NjksImV4cCI6MTc0MDY2MTg2OSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.loLm2LGkpUwlOwaQtIm1uF0Zn9FuRdk4FcVR29oYRs_6bmP6fkecvXXs8UqjcZsI
+Content-Type:  application/json
+
+{
+"title": "Updated title 2",
+  "content": "Content updated cddfdfsfdsf",
+  "attachId": "6497d18f-fc3b-4c0d-be0a-6e72c3500fb3.jpg"
+}
+### delete profile post
+DELETE localhost:8080/api/v1/post/72eac640-d0ca-473b-8d9c-3714ccc2ef93
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA2NTQ2NjksImV4cCI6MTc0MDY2MTg2OSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiMjgyZDNhMWYtYTE0Yy00MWNiLTlhMzYtNGY2MmFhZDI2OTY2IiwidXNlcm5hbWUiOiJydW5uZXJwcm8xOTkwQGdtYWlsLmNvbSIsInJvbGUiOlsiUk9MRV9VU0VSIl19.loLm2LGkpUwlOwaQtIm1uF0Zn9FuRdk4FcVR29oYRs_6bmP6fkecvXXs8UqjcZsI
+### post filter
+POST localhost:8080/api/v1/post/public/filterPost?page=1&size=10
+Content-Type:application/json
+Accept-Language: ru
+
+{
+"query": "tt"
+}
+### get last three
+GET localhost:8080/api/v1/post/public/lastThree/72eac640-d0ca-473b-8d9c-3714ccc2ef93
+Accept-Language: ru
+
+### post admin filter
+POST localhost:8080/api/v1/post/filterAdmin?page=1&size=10
+Accept-Language: uz
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDA4MjkzNjksImV4cCI6MTc0MDkxNTc2OSwiaXNzIjoiR2l5YmF0IHRlc3QgcG9ydGFsaSIsImlkIjoiZmE4YzY2MTctMzNmYi00NmFkLTg4NDQtNDMyN2EyMjlhYzhmIiwidXNlcm5hbWUiOiJzYW5qYXI5MDIxMDVAZ21haWwuY29tIiwicm9sZSI6WyJST0xFX0FETUlOIiwiUk9MRV9VU0VSIl19.McXT3IwlUnbcszXQn0ecZ1JvWtn4VS4zzj6NyrR1aupqi5CiA4GYuqqhAJvgCM41
+
+{
+  "postQuery": "2f6dcb11-d8f6-4c64-8dc9-0b45b4c5be29"
+}

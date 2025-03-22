@@ -15,8 +15,7 @@ import java.time.LocalDateTime;
 @Table(name = "profile")
 public class ProfileEntity {
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+   @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     @Column(name = "name")
     private String name;
@@ -29,6 +28,11 @@ public class ProfileEntity {
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
     private GeneralStatus status;
+    @Column(name = "attach_id")
+    private String attachId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "attach_id",updatable = false,insertable = false)
+    private AttachEntity attach;
     @Column
     private Boolean visible=Boolean.TRUE;
     @Column(name = "created_date")
